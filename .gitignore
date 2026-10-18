@@ -1,0 +1,25 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Image caches
+image_cache*/
+
+# Generated intermediate files
+train_embeddings.csv
+test_embeddings.csv
+features.csv
+features_test.csv
+catboost_info/
+
+# Generated predictions
+xgb.csv
+lgbm.csv
+catboost.csv
+catboost_oof_validation.csv
+qwen_submission.csv
+test_out.csv
+*.log
